@@ -5,18 +5,13 @@
     <title>Search Components</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
-    <link rel="stylesheet" href="http://localhost/include/bootstrap/bootstrap.css">
-    <script src="http://localhost/include/js/bootstrap.min.js" charset="utf-8"></script>
-    <script src="http://localhost/include/js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <?php include 'linksAndScripts.php'; ?>
   </head>
   <body style="background: linear-gradient(to left, grey, silver);">
     <div class="jumbotron">
       <big>Get Component</big>
       <small>&nbsp; |Add a new component to the database|</small><br> Click here to
-      <a href="http://localhost/components/addcomponent.php">Add new Components</a>
+      <a href="<?php echo ROOT_DIR; ?>/addcomponent.php">Add new Components</a>
     </div>
     <div class="container">
       <form class="def" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">

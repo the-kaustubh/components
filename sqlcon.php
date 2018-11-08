@@ -1,6 +1,8 @@
 <?php
 define("SERVER", "localhost");
 define("username", "root");
+define('ROOT_DIR', 'http://first-app-of-mine.herouapp.com/');
+define('ROOT_DIR_LOCAL', 'http://localhost/');
 include 'password.php';
 define("DB", "EComp");
 
